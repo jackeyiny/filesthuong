@@ -1,0 +1,297 @@
+"id","keyMap","type","valueEn","valueVi","createdAt","updatedAt"
+"24","R1","ROLE","Admin","Quản trị viên","0000-00-00 00:00:00","0000-00-00 00:00:00"
+"25","R2","ROLE","Doctor","Bác sĩ","0000-00-00 00:00:00","0000-00-00 00:00:00"
+"26","R3","ROLE","Patient","Bệnh nhân","0000-00-00 00:00:00","0000-00-00 00:00:00"
+"27","S1","STATUS","New","Lịch hẹn mới","0000-00-00 00:00:00","0000-00-00 00:00:00"
+"28","S2","STATUS","Confirmed","Đã xác nhận","0000-00-00 00:00:00","0000-00-00 00:00:00"
+"29","S3","STATUS","Done","Đã khám xong","0000-00-00 00:00:00","0000-00-00 00:00:00"
+"30","S4","STATUS","Cancel","Đã hủy","0000-00-00 00:00:00","0000-00-00 00:00:00"
+"31","T1","TIME","8:00 AM - 9:00 AM","8:00 - 9:00","0000-00-00 00:00:00","0000-00-00 00:00:00"
+"32","T2","TIME","9:00 AM - 10:00 AM","9:00 - 10:00","0000-00-00 00:00:00","0000-00-00 00:00:00"
+"33","T3","TIME","10:00 AM - 11:00 AM","10:00 - 11:00","0000-00-00 00:00:00","0000-00-00 00:00:00"
+"34","T4","TIME","11:00 AM - 0:00 PM","11:00 - 12:00","0000-00-00 00:00:00","0000-00-00 00:00:00"
+"35","T5","TIME","1:00 PM - 2:00 PM","13:00 - 14:00","0000-00-00 00:00:00","0000-00-00 00:00:00"
+"36","T6","TIME","2:00 PM - 3:00 PM","14:00 - 15:00","0000-00-00 00:00:00","0000-00-00 00:00:00"
+"37","T7","TIME","3:00 PM - 4:00 PM","15:00 - 16:00","0000-00-00 00:00:00","0000-00-00 00:00:00"
+"38","T8","TIME","4:00 PM - 5:00 PM","16:00 - 17:00","0000-00-00 00:00:00","0000-00-00 00:00:00"
+"39","P0","POSITION","Doctor","Bác sĩ","0000-00-00 00:00:00","0000-00-00 00:00:00"
+"40","P1","POSITION","Master","Thạc sĩ","0000-00-00 00:00:00","0000-00-00 00:00:00"
+"41","P2","POSITION","Dr","Tiến sĩ","0000-00-00 00:00:00","0000-00-00 00:00:00"
+"42","P3","POSITION","Associate Professor","Phó giáo sư","0000-00-00 00:00:00","0000-00-00 00:00:00"
+"43","P4","POSITION","Professor","Giáo sư","0000-00-00 00:00:00","0000-00-00 00:00:00"
+"44","M","GENDER","Male","Nam","0000-00-00 00:00:00","0000-00-00 00:00:00"
+"45","F","GENDER","Female","Nữ","0000-00-00 00:00:00","0000-00-00 00:00:00"
+"46","O","GENDER","Other","Khác","0000-00-00 00:00:00","0000-00-00 00:00:00"
+"47","PRI1","PRICE","10","200000","0000-00-00 00:00:00","0000-00-00 00:00:00"
+"48","PRI2","PRICE","15","250000","0000-00-00 00:00:00","0000-00-00 00:00:00"
+"49","PRI3","PRICE","20","300000","0000-00-00 00:00:00","0000-00-00 00:00:00"
+"50","PRI4","PRICE","25","350000","0000-00-00 00:00:00","0000-00-00 00:00:00"
+"51","PRI5","PRICE","30","400000","0000-00-00 00:00:00","0000-00-00 00:00:00"
+"52","PRI6","PRICE","35","450000","0000-00-00 00:00:00","0000-00-00 00:00:00"
+"53","PRI7","PRICE","40","500000","0000-00-00 00:00:00","0000-00-00 00:00:00"
+"54","PAY1","PAYMENT","Cash","Tiền mặt","0000-00-00 00:00:00","0000-00-00 00:00:00"
+"55","PAY2","PAYMENT","Credit card","Thẻ ATM","0000-00-00 00:00:00","0000-00-00 00:00:00"
+"56","PAY3","PAYMENT","All payment method","Tất cả","0000-00-00 00:00:00","0000-00-00 00:00:00"
+"57","PRO1","PROVINCE","Ha Noi","Hà Nội","0000-00-00 00:00:00","0000-00-00 00:00:00"
+"58","PRO4","PROVINCE","Ho Chi Minh","Hồ Chí Minh","0000-00-00 00:00:00","0000-00-00 00:00:00"
+"59","PRO3","PROVINCE","Da Nang","Đà Nẵng","0000-00-00 00:00:00","0000-00-00 00:00:00"
+"60","PRO5","PROVINCE","Can Tho","Cần Thơ","0000-00-00 00:00:00","0000-00-00 00:00:00"
+"61","PRO2","PROVINCE","Hai Phong","Hải Phòng","0000-00-00 00:00:00","0000-00-00 00:00:00"
+"id","statusId","doctorId","patientId","date","timeType","createdAt","updatedAt"
+"id","name","address","description","image","createdAt","updatedAt"
+"id","doctorId","priceId","provinceId","paymentId","addressClinic","nameClinic","note","count","createdAt","updatedAt"
+"2","2","PRI2","PRO4","PAY3","79 Đ. Thành Thái, Phường 14, Quận 10, Hồ Chí Minh","Bệnh viện STO Phương Đông","no","0","2024-08-11 22:30:40","2024-08-12 15:24:19"
+"3","6","PRI2","PRO4","PAY3","HCM","Bệnh viện Trường Đh Y Dược","no","0","2024-08-11 22:32:50","2024-08-11 22:32:50"
+"4","3","PRI4","PRO4","PAY3","HCM","Bệnh viện Nhân dân Gia Định","no","0","2024-08-12 11:34:30","2024-08-12 11:37:21"
+"id","doctorId","clinicId","specialtyId","createdAt","updatedAt"
+"id","patientId","doctorId","description","files","createdAt","updatedAt"
+"id","doctorId","clinicId","specialtyId","contentHtml","contentMarkdown","description","createdAt","updatedAt"
+"1","2",NULL,NULL,"<p><strong>Tiến sĩ, Bác sĩ Phan Minh</strong></p>
+<ul>
+<li>Là Giám đốc Bệnh viện STO Phương Đông</li>
+<li>Hơn 40 năm gắn bó với nghề y, đã thực hiện hàng trăm nghìn ca phẫu thuật, trong đó có 35.000 ca khám &amp; phẫu thuật từ thiện cho trẻ em khuyết tật và người nghèo tại nhiều tỉnh thành của Việt Nam</li>
+</ul>
+<p><strong>Quá trình công tác</strong></p>
+<ul>
+<li>Sáng lập viên kiêm Giám đốc Bệnh viện STO Phương Đông (2007 đến nay)</li>
+<li>Nguyên sáng lập viên kiêm Giám đốc bệnh viện Sài Gòn ITO (2002)</li>
+<li>Giảng viên trường Đại học Y Thanh Hóa &amp; Đại học Y Thái Bình (1968 – 1971)</li>
+<li>Chủ nhiệm liên bộ môn ngoại chấn thương chỉnh hình &amp; phẫu thuật thực hành tại Đại học Y Thái Bình (1979)</li>
+<li>Phó chủ nhiệm khoa chấn thương chỉnh hình bệnh viện Việt Nam – Bungari (1979)</li>
+<li>Bác sĩ khoa chấn thương Bệnh viện Thống Nhất TPHCM</li>
+<li>Bác sĩ khoa điều trị Trung tâm chỉnh hình phục hồi chức năng trẻ khuyết tật vận động TP.HCM</li>
+<li>Bác sĩ là người đầu tiên đưa ra quy trình chẩn đoán &amp; phẫu thuật hiệu quả nhất cho bệnh nhân bị xơ hóa cơ Delta (bệnh chim sệ cánh) và được Bộ y tế giao trọng trách tổ chức tập huấn &amp; chuyển giao kỹ thuật mổ xơ hóa cơ Delta cho các cơ sở y tế ở nhiều địa phương như Thanh Hóa, Vĩnh Phúc, Hà Tĩnh, Nghệ An,… và trực tiếp phẫu thuật xơ hóa cơ Delta cho hàng nghìn trẻ em khắp các tỉnh thành Việt Nam (2006 – 2007)</li>
+</ul>
+<p><strong>Quá trình đào tạo</strong></p>
+<ul>
+<li>Tốt nghiệp trường Đại học Y Hà Nội (1968)</li>
+<li>Tốt nghiệp Phó tiến sỹ y khoa (1979 – Liên Xô)</li>
+<li>Tốt nghiệp Tiến sỹ khoa học (1997 – CHLB Nga)</li>
+</ul>
+<p><strong>Chứng chỉ trong nước, ngoài nước</strong></p>
+<ul>
+<li>Tu nghiệp chuyên môn tại Hoa Kỳ, Nhật Bản</li>
+<li>Chứng nhận hành nghề y tế tư nhân loại hình bệnh viện do Bộ y tế cấp năm 2007</li>
+<li>Chứng chỉ hành nghề khám chữa bệnh do Sở y tế TPHCM cấp năm 2013</li>
+</ul>
+","**Tiến sĩ, Bác sĩ Phan Minh**
+* Là Giám đốc Bệnh viện STO Phương Đông
+* Hơn 40 năm gắn bó với nghề y, đã thực hiện hàng trăm nghìn ca phẫu thuật, trong đó có 35.000 ca khám & phẫu thuật từ thiện cho trẻ em khuyết tật và người nghèo tại nhiều tỉnh thành của Việt Nam
+
+**Quá trình công tác**
+* Sáng lập viên kiêm Giám đốc Bệnh viện STO Phương Đông (2007 đến nay)
+* Nguyên sáng lập viên kiêm Giám đốc bệnh viện Sài Gòn ITO (2002)
+* Giảng viên trường Đại học Y Thanh Hóa & Đại học Y Thái Bình (1968 – 1971)
+* Chủ nhiệm liên bộ môn ngoại chấn thương chỉnh hình & phẫu thuật thực hành tại Đại học Y Thái Bình (1979)
+* Phó chủ nhiệm khoa chấn thương chỉnh hình bệnh viện Việt Nam – Bungari (1979)
+* Bác sĩ khoa chấn thương Bệnh viện Thống Nhất TPHCM
+* Bác sĩ khoa điều trị Trung tâm chỉnh hình phục hồi chức năng trẻ khuyết tật vận động TP.HCM
+* Bác sĩ là người đầu tiên đưa ra quy trình chẩn đoán & phẫu thuật hiệu quả nhất cho bệnh nhân bị xơ hóa cơ Delta (bệnh chim sệ cánh) và được Bộ y tế giao trọng trách tổ chức tập huấn & chuyển giao kỹ thuật mổ xơ hóa cơ Delta cho các cơ sở y tế ở nhiều địa phương như Thanh Hóa, Vĩnh Phúc, Hà Tĩnh, Nghệ An,… và trực tiếp phẫu thuật xơ hóa cơ Delta cho hàng nghìn trẻ em khắp các tỉnh thành Việt Nam (2006 – 2007)
+
+**Quá trình đào tạo**
+* Tốt nghiệp trường Đại học Y Hà Nội (1968)
+* Tốt nghiệp Phó tiến sỹ y khoa (1979 – Liên Xô)
+* Tốt nghiệp Tiến sỹ khoa học (1997 – CHLB Nga)
+
+**Chứng chỉ trong nước, ngoài nước**
+* Tu nghiệp chuyên môn tại Hoa Kỳ, Nhật Bản
+* Chứng nhận hành nghề y tế tư nhân loại hình bệnh viện do Bộ y tế cấp năm 2007
+* Chứng chỉ hành nghề khám chữa bệnh do Sở y tế TPHCM cấp năm 2013","Là Giám đốc Bệnh viện STO Phương Đông
+Hơn 40 năm gắn bó với nghề y, đã thực hiện hàng trăm nghìn ca phẫu thuật về chấn thương chỉnh hình","2024-07-22 17:17:36","2024-08-12 15:24:19"
+"2","3",NULL,NULL,"<p><strong>BSCKII Mach Thuan</strong></p>
+<ul>
+<li>Trưởng khoa Nội Cơ Xương Khớp, Bệnh viện Nhân dân Gia Định</li>
+<li>Nhiều năm kinh nghiệm trong khám và điều trị bệnh lý về Nội Cơ xương khớp</li>
+<li>Bác sĩ nhận khám cho bệnh nhân từ 16 tuổi trở lên</li>
+</ul>
+<p><strong>Khám và điều trị</strong></p>
+<p>Bác sĩ khám và điều trị các mặt bệnh:</p>
+<ul>
+<li>Viêm khớp, thoái hóa khớp: đau khớp, gai trong khớp,...</li>
+<li>Đau gót chân, gai gót chân</li>
+<li>Gai cột sống, thoái hóa cột sống: đau lưng cấp, mãn tính</li>
+<li>Hội chứng ống cổ tay, đau thần kinh tọa: tê tay, tê chân,...</li>
+</ul>
+<p><strong>Quá trình công tác</strong></p>
+<ul>
+<li>Trưởng khoa Nội Cơ Xương Khớp, Bệnh viện Nhân dân Gia Định (nay)</li>
+<li>Phó Trưởng khoa Hô hấp - Cơ xương khớp, Bệnh viện Nhân dân Gia Định (2010 - 2018)</li>
+<li>Bác sĩ khoa Hồi sức Nội, Bệnh viện Nhân dân Gia Định (2006 - 2009)</li>
+</ul>
+<p><strong>Quá trình đào tạo</strong></p>
+<ul>
+<li>Tốt nghiệp Bác sĩ chuyên khoa II, chuyên ngành Nội khoa, Đại học Y Hà Nội (2020)</li>
+<li>Tốt nghiệp Thạc sĩ chuyên ngành Nội Tổng quát, Đại học Y khoa Phạm Ngọc Thạch (2014)</li>
+<li>Tốt nghiệp Bác sĩ đa khoa, Đại học Y Dược TP.HCM (2006)</li>
+<li>Chứng chỉ Sơ bộ Cơ xương khớp, Bệnh viện Chợ Rẫy (2014)</li>
+<li>Tu nghiệp chuyên môn tại các nước Hà Lan, Úc, Bồ Đào Nha, Dubai,...</li>
+</ul>
+","**BSCKII Mach Thuan**
+* Trưởng khoa Nội Cơ Xương Khớp, Bệnh viện Nhân dân Gia Định
+* Nhiều năm kinh nghiệm trong khám và điều trị bệnh lý về Nội Cơ xương khớp
+* Bác sĩ nhận khám cho bệnh nhân từ 16 tuổi trở lên
+
+**Khám và điều trị**
+
+Bác sĩ khám và điều trị các mặt bệnh:
+* Viêm khớp, thoái hóa khớp: đau khớp, gai trong khớp,...
+* Đau gót chân, gai gót chân
+* Gai cột sống, thoái hóa cột sống: đau lưng cấp, mãn tính
+* Hội chứng ống cổ tay, đau thần kinh tọa: tê tay, tê chân,...
+
+**Quá trình công tác**
+* Trưởng khoa Nội Cơ Xương Khớp, Bệnh viện Nhân dân Gia Định (nay)
+* Phó Trưởng khoa Hô hấp - Cơ xương khớp, Bệnh viện Nhân dân Gia Định (2010 - 2018)
+* Bác sĩ khoa Hồi sức Nội, Bệnh viện Nhân dân Gia Định (2006 - 2009)
+
+**Quá trình đào tạo**
+* Tốt nghiệp Bác sĩ chuyên khoa II, chuyên ngành Nội khoa, Đại học Y Hà Nội (2020)
+* Tốt nghiệp Thạc sĩ chuyên ngành Nội Tổng quát, Đại học Y khoa Phạm Ngọc Thạch (2014)
+* Tốt nghiệp Bác sĩ đa khoa, Đại học Y Dược TP.HCM (2006)
+* Chứng chỉ Sơ bộ Cơ xương khớp, Bệnh viện Chợ Rẫy (2014)
+* Tu nghiệp chuyên môn tại các nước Hà Lan, Úc, Bồ Đào Nha, Dubai,...","Trưởng khoa Nội Cơ Xương Khớp, Bệnh viện Nhân dân Gia Định
+Nhiều năm kinh nghiệm trong khám và điều trị bệnh lý về Nội Cơ xương khớp
+Bác sĩ nhận khám cho bệnh nhân từ 16 tuổi trở lên","2024-07-22 17:26:56","2024-08-12 11:37:21"
+"3","3",NULL,NULL,"<p><strong>BSCKII Mach Thuan</strong></p>
+<ul>
+<li>Trưởng khoa Nội Cơ Xương Khớp, Bệnh viện Nhân dân Gia Định</li>
+<li>Nhiều năm kinh nghiệm trong khám và điều trị bệnh lý về Nội Cơ xương khớp</li>
+<li>Bác sĩ nhận khám cho bệnh nhân từ 16 tuổi trở lên</li>
+</ul>
+<p><strong>Khám và điều trị</strong></p>
+<p>Bác sĩ khám và điều trị các mặt bệnh:</p>
+<ul>
+<li>Viêm khớp, thoái hóa khớp: đau khớp, gai trong khớp,...</li>
+<li>Đau gót chân, gai gót chân</li>
+<li>Gai cột sống, thoái hóa cột sống: đau lưng cấp, mãn tính</li>
+<li>Hội chứng ống cổ tay, đau thần kinh tọa: tê tay, tê chân,...</li>
+</ul>
+<p><strong>Quá trình công tác</strong></p>
+<ul>
+<li>Trưởng khoa Nội Cơ Xương Khớp, Bệnh viện Nhân dân Gia Định (nay)</li>
+<li>Phó Trưởng khoa Hô hấp - Cơ xương khớp, Bệnh viện Nhân dân Gia Định (2010 - 2018)</li>
+<li>Bác sĩ khoa Hồi sức Nội, Bệnh viện Nhân dân Gia Định (2006 - 2009)</li>
+</ul>
+<p><strong>Quá trình đào tạo</strong></p>
+<ul>
+<li>Tốt nghiệp Bác sĩ chuyên khoa II, chuyên ngành Nội khoa, Đại học Y Hà Nội (2020)</li>
+<li>Tốt nghiệp Thạc sĩ chuyên ngành Nội Tổng quát, Đại học Y khoa Phạm Ngọc Thạch (2014)</li>
+<li>Tốt nghiệp Bác sĩ đa khoa, Đại học Y Dược TP.HCM (2006)</li>
+<li>Chứng chỉ Sơ bộ Cơ xương khớp, Bệnh viện Chợ Rẫy (2014)</li>
+<li>Tu nghiệp chuyên môn tại các nước Hà Lan, Úc, Bồ Đào Nha, Dubai,...</li>
+</ul>
+","**BSCKII Mach Thuan**
+* Trưởng khoa Nội Cơ Xương Khớp, Bệnh viện Nhân dân Gia Định
+* Nhiều năm kinh nghiệm trong khám và điều trị bệnh lý về Nội Cơ xương khớp
+* Bác sĩ nhận khám cho bệnh nhân từ 16 tuổi trở lên
+
+**Khám và điều trị**
+
+Bác sĩ khám và điều trị các mặt bệnh:
+* Viêm khớp, thoái hóa khớp: đau khớp, gai trong khớp,...
+* Đau gót chân, gai gót chân
+* Gai cột sống, thoái hóa cột sống: đau lưng cấp, mãn tính
+* Hội chứng ống cổ tay, đau thần kinh tọa: tê tay, tê chân,...
+
+**Quá trình công tác**
+* Trưởng khoa Nội Cơ Xương Khớp, Bệnh viện Nhân dân Gia Định (nay)
+* Phó Trưởng khoa Hô hấp - Cơ xương khớp, Bệnh viện Nhân dân Gia Định (2010 - 2018)
+* Bác sĩ khoa Hồi sức Nội, Bệnh viện Nhân dân Gia Định (2006 - 2009)
+
+**Quá trình đào tạo**
+* Tốt nghiệp Bác sĩ chuyên khoa II, chuyên ngành Nội khoa, Đại học Y Hà Nội (2020)
+* Tốt nghiệp Thạc sĩ chuyên ngành Nội Tổng quát, Đại học Y khoa Phạm Ngọc Thạch (2014)
+* Tốt nghiệp Bác sĩ đa khoa, Đại học Y Dược TP.HCM (2006)
+* Chứng chỉ Sơ bộ Cơ xương khớp, Bệnh viện Chợ Rẫy (2014)
+* Tu nghiệp chuyên môn tại các nước Hà Lan, Úc, Bồ Đào Nha, Dubai,...","Trưởng khoa Nội Cơ Xương Khớp, Bệnh viện Nhân dân Gia Định
+Nhiều năm kinh nghiệm trong khám và điều trị bệnh lý về Nội Cơ xương khớp
+Bác sĩ nhận khám cho bệnh nhân từ 16 tuổi trở lên","2024-07-26 14:03:35","2024-08-12 11:37:21"
+"4","6",NULL,NULL,"<p><strong>QUI ĐỊNH KHÁM BỆNH GIAI ĐOẠN COVID -19</strong></p>
+<p>Người bệnh tới khám chú ý các qui định sau:</p>
+<p>Tiêm đủ 2 mũi vaccine ngừa COVID-19
+Khai báo y tế
+Khai báo triệu chứng nếu có: sốt, ho, hắt hơi sổ mũi,… --&gt; sẽ cần test nhanh COVID-19
+Khi vào khám ĐEO KHẨU TRANG VÀ ĐEO KÍNH CHẮN GIỌT BẮN
+Đảm bảo khoảng cách 2 mét cách nhau --&gt; tránh lây nhiễm
+Mỗi lần chỉ 1 người bệnh vào khám</p>
+","**QUI ĐỊNH KHÁM BỆNH GIAI ĐOẠN COVID -19**
+
+Người bệnh tới khám chú ý các qui định sau:
+
+Tiêm đủ 2 mũi vaccine ngừa COVID-19
+Khai báo y tế
+Khai báo triệu chứng nếu có: sốt, ho, hắt hơi sổ mũi,… --> sẽ cần test nhanh COVID-19
+Khi vào khám ĐEO KHẨU TRANG VÀ ĐEO KÍNH CHẮN GIỌT BẮN
+Đảm bảo khoảng cách 2 mét cách nhau --> tránh lây nhiễm
+Mỗi lần chỉ 1 người bệnh vào khám","Phó giáo sư, Tiến sĩ, Bác sĩ Trần Quang Nam hiện đang là Trưởng khoa Nội Tiết bệnh viện Đại học Y Dược TP. HCM, Phó Trưởng Bộ môn Nội tiết tại Đại học Y dược TP. HCM. Bác sĩ có nhiều năm kinh nghiệm trong việc chuyên khám và điều trị các bệnh như đái tháo đường, bệnh bướu cổ, bệnh nội tiết và các bệnh nội khoa.","2024-08-11 22:32:50","2024-08-11 22:32:50"
+"id","currentNumber","maxNumber","date","timeType","doctorId","createdAt","updatedAt"
+"9",NULL,"10","03/08/2024","T1","2","2024-08-01 14:29:37","2024-08-01 14:29:37"
+"10",NULL,"10","03/08/2024","T2","2","2024-08-01 14:29:37","2024-08-01 14:29:37"
+"11",NULL,"10","03/08/2024","T3","2","2024-08-01 14:29:53","2024-08-01 14:29:53"
+"12",NULL,"10","03/08/2024","T4","2","2024-08-01 14:29:53","2024-08-01 14:29:53"
+"13",NULL,"10","03/08/2024","T5","2","2024-08-01 14:40:19","2024-08-01 14:40:19"
+"14",NULL,"10","03/08/2024","T6","2","2024-08-01 14:40:19","2024-08-01 14:40:19"
+"15",NULL,"10","09/08/2024","T1","2","2024-08-07 15:20:11","2024-08-07 15:20:11"
+"16",NULL,"10","09/08/2024","T2","2","2024-08-07 15:20:11","2024-08-07 15:20:11"
+"17",NULL,"10","09/08/2024","T3","2","2024-08-07 15:20:11","2024-08-07 15:20:11"
+"21",NULL,"10","10/08/2024","T1","2","2024-08-08 13:18:34","2024-08-08 13:18:34"
+"22",NULL,"10","10/08/2024","T2","2","2024-08-08 13:18:34","2024-08-08 13:18:34"
+"23",NULL,"10","10/08/2024","T3","2","2024-08-08 13:18:34","2024-08-08 13:18:34"
+"24",NULL,"10","10/08/2024","T4","2","2024-08-08 13:18:34","2024-08-08 13:18:34"
+"25",NULL,"10","10/08/2024","T5","2","2024-08-08 13:18:34","2024-08-08 13:18:34"
+"26",NULL,"10","10/08/2024","T6","2","2024-08-08 13:18:34","2024-08-08 13:18:34"
+"27",NULL,"10","10/08/2024","T7","2","2024-08-08 13:18:34","2024-08-08 13:18:34"
+"28",NULL,"10","10/08/2024","T8","2","2024-08-08 13:18:34","2024-08-08 13:18:34"
+"29",NULL,"10","08/08/2024","T1","2","2024-08-08 13:29:22","2024-08-08 13:29:22"
+"30",NULL,"10","08/08/2024","T2","2","2024-08-08 13:29:22","2024-08-08 13:29:22"
+"31",NULL,"10","08/08/2024","T7","2","2024-08-08 13:29:22","2024-08-08 13:29:22"
+"32",NULL,"10","08/08/2024","T8","2","2024-08-08 13:29:22","2024-08-08 13:29:22"
+"33",NULL,"10","12/08/2024","T1","2","2024-08-12 12:12:52","2024-08-12 12:12:52"
+"34",NULL,"10","12/08/2024","T2","2","2024-08-12 12:12:52","2024-08-12 12:12:52"
+"35",NULL,"10","12/08/2024","T3","2","2024-08-12 12:12:52","2024-08-12 12:12:52"
+"36",NULL,"10","12/08/2024","T4","2","2024-08-12 12:12:52","2024-08-12 12:12:52"
+"37",NULL,"10","12/08/2024","T5","2","2024-08-12 12:12:52","2024-08-12 12:12:52"
+"38",NULL,"10","12/08/2024","T6","2","2024-08-12 12:12:52","2024-08-12 12:12:52"
+"39",NULL,"10","13/08/2024","T1","2","2024-08-12 12:13:16","2024-08-12 12:13:16"
+"40",NULL,"10","13/08/2024","T2","2","2024-08-12 12:13:16","2024-08-12 12:13:16"
+"41",NULL,"10","13/08/2024","T3","2","2024-08-12 12:13:16","2024-08-12 12:13:16"
+"42",NULL,"10","13/08/2024","T4","2","2024-08-12 12:13:16","2024-08-12 12:13:16"
+"43",NULL,"10","13/08/2024","T5","2","2024-08-12 12:13:16","2024-08-12 12:13:16"
+"44",NULL,"10","13/08/2024","T6","2","2024-08-12 12:13:16","2024-08-12 12:13:16"
+"45",NULL,"10","13/08/2024","T7","2","2024-08-12 12:13:16","2024-08-12 12:13:16"
+"46",NULL,"10","13/08/2024","T8","2","2024-08-12 12:13:16","2024-08-12 12:13:16"
+"47",NULL,"10","14/08/2024","T1","2","2024-08-12 14:02:26","2024-08-12 14:02:26"
+"48",NULL,"10","14/08/2024","T2","2","2024-08-12 14:02:26","2024-08-12 14:02:26"
+"49",NULL,"10","14/08/2024","T3","2","2024-08-12 14:02:26","2024-08-12 14:02:26"
+"50",NULL,"10","14/08/2024","T4","2","2024-08-12 14:02:26","2024-08-12 14:02:26"
+"51",NULL,"10","14/08/2024","T5","2","2024-08-12 14:02:26","2024-08-12 14:02:26"
+"52",NULL,"10","14/08/2024","T6","2","2024-08-12 14:02:26","2024-08-12 14:02:26"
+"53",NULL,"10","14/08/2024","T7","2","2024-08-12 14:02:26","2024-08-12 14:02:26"
+"54",NULL,"10","15/08/2024","T1","2","2024-08-12 14:02:59","2024-08-12 14:02:59"
+"55",NULL,"10","15/08/2024","T2","2","2024-08-12 14:02:59","2024-08-12 14:02:59"
+"56",NULL,"10","15/08/2024","T3","2","2024-08-12 14:02:59","2024-08-12 14:02:59"
+"57",NULL,"10","15/08/2024","T4","2","2024-08-12 14:02:59","2024-08-12 14:02:59"
+"58",NULL,"10","16/08/2024","T5","2","2024-08-12 14:24:39","2024-08-12 14:24:39"
+"59",NULL,"10","16/08/2024","T6","2","2024-08-12 14:24:39","2024-08-12 14:24:39"
+"60",NULL,"10","16/08/2024","T7","2","2024-08-12 14:24:39","2024-08-12 14:24:39"
+"61",NULL,"10","16/08/2024","T8","2","2024-08-12 14:24:39","2024-08-12 14:24:39"
+"name"
+"migration-create-allcode.js"
+"migration-create-booking.js"
+"migration-create-clinic.js"
+"migration-create-doctor-clinic-specialty.js"
+"migration-create-doctor-info.js"
+"migration-create-history.js"
+"migration-create-markdown.js"
+"migration-create-schedule.js"
+"migration-create-specialty.js"
+"migration-create-user.js"
+"id","name","description","image","createdAt","updatedAt"
+"id","email","password","firstName","lastName","address","phoneNumber","gender","image","roleId","positionId","createdAt","updatedAt"
+"1","admin@gmail.com","$2b$10$D/0C5Qg/RHGLfdfQamZXteuy063hmg6CfeBm2XQWCIiPHN6tW1mdi","Admin",NULL,NULL,NULL,NULL,NULL,"R1",NULL,"2024-07-15 14:04:19","2024-07-15 14:04:19"
+"2","minh@gmail.com","$2b$10$iQc2iUAlvNok9jbzwMurhOj4Cn2mYo0x3ASo5djD0GMgj9X5soEam","Minh","Phan","HN","0123456799","M",,"R2","P2","2024-07-15 14:32:23","2024-07-15 14:32:23"
+"3","thuan@gmail.com","$2b$10$OtGStAsu7W/WMSzex5Eza.GZFr1smFdnB2.WQiCqbbLwOxYMrnEKW","Thuan","Mach","HCM","0123456799","M",,"R2","P3","2024-07-15 15:04:14","2024-07-15 15:04:14"
+"5","phong@gmail.com","$2b$10$OtGStAsu7W/WMSzex5Eza.GZFr1smFdnB2.WQiCqbbLwOxYMrnEKW","Phong","Pham","HN","0987654321","M",,"R2","P1","2024-07-15 15:05:35","2024-07-15 15:05:35"
+"6","truc@gmail.com","$2b$10$OtGStAsu7W/WMSzex5Eza.GZFr1smFdnB2.WQiCqbbLwOxYMrnEKW","Truc","Nguyen","HN","0987654321","F",,"R2","P0","2024-07-15 15:07:20","2024-07-15 15:07:20"
+"7","dangtran0710@gmail.com","$2b$10$DRvKrQ.rp4qoOrfRDecVAeeuo6N8oq7umELv7ZkuqoleQbgkCnj2O","Dang","Tran","HCM","0987654321","F",NULL,"R3",NULL,"2024-08-18 17:08:58","2024-08-18 17:08:58"
+"8","haidangtran0710@gmail.com","$2b$10$YNcWPdUXItiyp.78kcb9h.cEAZFpR9GYpdvLBQTx7/PNtPyPNBdOK","Hai Dang","Tran","HCM","0123456799","F",NULL,"R3",NULL,"2024-08-19 14:57:07","2024-08-19 14:57:07"
